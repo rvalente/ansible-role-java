@@ -1,0 +1,13 @@
+---
+- name: install java jre
+  package:
+    name: "{{ java_jre_pkg_name }}"
+    state: present
+  become: true
+
+- name: install java jdk
+  package:
+    name: "{{ java_jdk_pkg_name }}"
+    state: present
+  when: java_install_jdk
+  become: true

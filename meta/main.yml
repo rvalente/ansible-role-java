@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  author: Ronald Valente
+  description: Install Java for Debian/Ubuntu or RedHat/CentOS
+  issue_tracker_url: https://github.com/rvalente/ansible-role-java/issues
+  license: MIT
+  min_ansible_version: 2.2
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  - name: Ubuntu
+    versions:
+    - xenial
+  - name: Debian
+    versions:
+    - jessie
+  galaxy_tags:
+    - java
+dependencies: []

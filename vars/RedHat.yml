@@ -1,0 +1,4 @@
+---
+java_jre_pkg_name: java-1.8.0-openjdk
+java_jdk_pkg_name: java-1.8.0-openjdk-devel
+  
